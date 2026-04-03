@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
+@SuppressWarnings("null")
 public class DataInitializer implements CommandLineRunner {
 
     private final UserRepository userRepository;

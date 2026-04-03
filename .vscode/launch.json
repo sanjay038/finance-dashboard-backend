@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "FinanceDashboardApplication",
+            "request": "launch",
+            "mainClass": "com.finance.dashboard.FinanceDashboardApplication",
+            "projectName": "dashboard"
+        },
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
